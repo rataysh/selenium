@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 
 
-chromedriver_path = '/home/denis/chromedriver/chromedriver'
+chromedriver_path = ''
 driver = webdriver.Chrome(chromedriver_path)
 
 link = 'path_to_web'
