@@ -5,7 +5,10 @@ from selenium import webdriver
 chromedriver_path = '/home/denis/chromedriver/chromedriver'
 driver = webdriver.Chrome(chromedriver_path)
 link = 'http://suninjuly.github.io/find_xpath_form'
-
+value1 = 'input'
+value2 = 'last_name'
+value3 = 'city'
+value4 = 'country'
 
 try:
     time.sleep(1)
