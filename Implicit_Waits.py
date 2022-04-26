@@ -1,6 +1,5 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.support.ui import Select
 
 chromedriver_path = '/home/denis/chromedriver/chromedriver'
 driver = webdriver.Chrome(chromedriver_path)
