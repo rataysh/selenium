@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 chromedriver_path = '/home/denis/chromedriver/chromedriver'
 driver = webdriver.Chrome(chromedriver_path)
-# говорим WebDriver искать каждый элемент в течение 5 секунд
 driver.implicitly_wait(5)
 link = 'http://suninjuly.github.io/explicit_wait2.html'
 
