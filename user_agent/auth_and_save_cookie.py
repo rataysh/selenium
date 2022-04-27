@@ -32,7 +32,7 @@ try:
     button_input.click()
     time.sleep(5)
     ##Создаем файл с куками
-    pickle.dump(driver.get_cookies(), open("cooke_discord", "wb"))
+    pickle.dump(driver.get_cookies(), open("cookie_discord", "wb"))
     driver.quit()
 finally:
     time.sleep(3)
